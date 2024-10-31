@@ -13,10 +13,6 @@
 .students__item {
   padding: 30px 20px 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 440px;
   
   background: var(--white-color);
   box-shadow: 
@@ -32,16 +28,26 @@
   }
 
   @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
     flex-basis: calc((100% - 30px) / 2);
   }
 
   @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - 90px) / 4);
-  }
+    height: 440px;
+  } 
+}
 
-  .student__feedback {
-    letter-spacing: 0.05em;
-    line-height: 1.45;
+.student__feedback {
+  letter-spacing: 0.05em;
+  line-height: 1.45;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
   }
 }
 
