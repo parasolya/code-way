@@ -26,8 +26,7 @@
   color: var(--white-color);
   transition: background-color var(--anim-fast);
 
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: #2196f3;
     color: var(--white-color);
   }

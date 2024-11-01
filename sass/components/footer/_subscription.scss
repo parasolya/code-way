@@ -93,7 +93,7 @@
 
 .subscription__button:hover,
 .subscription__button:focus {
-  background-color: #188ce8;
+  background-color: var(--accent-hover-color); 
 }
 
 .subscription__icon {
