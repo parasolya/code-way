@@ -1,5 +1,10 @@
 .successes {
+  display: none;
+
   padding-bottom: 60px;
+  @media screen and (min-width: 481px) {
+    display: block;
+  }
 
   @media screen and (min-width: 1200px) {
     padding-bottom: 94px;
@@ -7,7 +12,6 @@
 }
 
 .successes__container {
-  // padding: 0 40px;
   @media screen and (min-width: 768px) {
     padding: 0 100px;
   }
@@ -25,8 +29,7 @@
   text-align: center;
   background-color: var(--background-color-secondary);
   padding: 40px;
- 
-  
+
   @media screen and (max-width: 480px) {
     &:not(:last-child) {
       margin-bottom: 30px;
