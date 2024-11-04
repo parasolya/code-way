@@ -25,8 +25,7 @@
 
   transition: color var(--anim-fast);
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: var(--accent-color);
   }
 }

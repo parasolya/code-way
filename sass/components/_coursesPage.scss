@@ -36,6 +36,11 @@
   border: 2px solid var(--coursesPage-border-color);
   border-top: none;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   &--size {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       padding-bottom: 57px;
@@ -44,6 +49,7 @@
 }
 
 .card__infoBox {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
