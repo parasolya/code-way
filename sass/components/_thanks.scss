@@ -1,5 +1,9 @@
 .thanks {
   background-color: var(--background-color-secondary);
+  @media screen and (min-width: 1200px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .thanks__title {
