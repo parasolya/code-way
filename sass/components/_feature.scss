@@ -8,18 +8,21 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
+
   margin-bottom: 10px;
 
   text-align: center;
+
   @media screen and (min-width: 768px) {
     text-align: left;
   }
 }
+
 .feature__text {
   font-weight: 400;
   line-height: 1.71;
 }
+
 .feature__list {
   @media screen and (min-width: 480px) {
     display: flex;
@@ -31,10 +34,10 @@
 .feature__item {
   @media screen and (max-width: 479px) {
     &:not(:last-child) {
-    margin-bottom: 30px;
+      margin-bottom: 30px;
     }
   }
-  
+
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 30px) / 2);
   }
@@ -55,15 +58,19 @@
   background-color: var(--background-color-secondary);
   margin-bottom: 30px;
 }
+
 .feature__item:nth-child(1)::before {
   background-image: url(../images/icons/online-learning.svg);
 }
+
 .feature__item:nth-child(2)::before {
   background-image: url(../images/icons/notes.svg);
 }
+
 .feature__item:nth-child(3)::before {
   background-image: url(../images/icons/choices.svg);
 }
+
 .feature__item:nth-child(4)::before {
   background-image: url(../images/icons/technical-support.svg);
 }

@@ -34,7 +34,7 @@ address {
   font-family: inherit;
   cursor: pointer;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .section {
@@ -46,6 +46,7 @@ address {
     padding-bottom: 94px;
   }
 }
+
 .container {
   padding: 0 15px;
   margin: 0 auto;
@@ -53,6 +54,7 @@ address {
   @media screen and (min-width: 480px) {
     width: 480px;
   }
+
   @media screen and (min-width: 768px) {
     width: 768px;
   }
@@ -61,6 +63,7 @@ address {
     width: 1200px;
   }
 }
+
 .list {
   list-style: none;
   margin: 0px;
@@ -95,6 +98,7 @@ address {
 .title--color {
   color: var(--title-text-color);
 }
+
 .section__title {
   font-weight: 700;
   font-size: 28px;
@@ -105,5 +109,5 @@ address {
 
   @media screen and (min-width: 1200px) {
     font-size: 36px;
-  }  
+  }
 }
