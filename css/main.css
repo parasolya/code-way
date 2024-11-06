@@ -1229,6 +1229,11 @@ address {
   background-color: var(--accent-hover-color);
 }
 
+
+.contactUs {
+  background-color: var(--background-color-secondary);
+}
+
 .contactUs__imgBox {
   width: 280px;
   overflow: hidden;
